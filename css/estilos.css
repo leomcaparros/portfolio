@@ -29,6 +29,11 @@ h3{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#Sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
 .proyecto {
     background-color: white;
     border: 1px solid #eee;
@@ -142,4 +147,9 @@ footer .fa-linkedin-in{
         background-repeat: no-repeat;
         background-size: 100%;
     }
-
+    #sobre-mi {
+        background-image: url('../images/fondo-proyectos.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+ 
