@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="css/Fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/Fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
-<body id="Sobre mi">
+<body id="Contacto">
     <header class="container">
         <nav class="navbar navbar-expand-md  mb-4">
             <div class="container-fluid">
@@ -27,13 +27,13 @@
                             <a class="nav-link  py-1 px-3 px-sm-4" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4 active" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link  py-1 px-3 px-sm-4" href="sobre-mi.html">Sobre mí</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link  py-1 px-3 px-sm-4" href="proyectos.html">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4" href="contacto.html">Contacto</a>
+                            <a class="nav-link py-1 px-3 px-sm-4 active" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -43,7 +43,40 @@
             </div>
         </nav>
     </header>
-
+    <main class="container">
+        <div class="row">
+            <div class="col-12 pt-3 pb-5">
+                <h1>Contacto</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+            </div>
+            <div class="col-sm-6 col-12">
+                <form action="" method="POST">
+                    <div class="mb-3">
+                        <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre"
+                            class="form-control shadow" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" id="txtCorreo" name="txtCorreo" placeholder="Correo"
+                            class="form-control shadow" required="">
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp" class="form-control shadow" required="">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje"
+                            class="form-control shadow" required=""></textarea>
+                    </div>
+                    <div class="me-auto text-right">
+                        <button id="btnEnviar" name="btnEnviar" class="btn px-4">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
     <footer class="container">
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
