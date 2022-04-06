@@ -4,12 +4,12 @@ body {
     margin: 0px;
 }
 #contacto {
-    background-image: url("../images/fondo-contacto.png");
+    background-image: url('../images/fondo-contacto.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 #proyectos {
-    background-image: url("../images/fondo-proyectos.png");
+    background-image: url('../images/fondo-proyectos.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
