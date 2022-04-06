@@ -4,6 +4,7 @@ body {
     margin: 0px;
 }
 #contacto{
+    background-color: transparent;
     background-image: url(../images/fondo-contacto.png);
     background-repeat: no-repeat;
     background-size: 100%;
