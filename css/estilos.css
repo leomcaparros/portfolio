@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 #contacto{
-    background-image: url(C:\xampp\htdocs\portfolio\images\fondo-contacto.png);
+    background-image: url(../images/fondo-contacto.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
