@@ -11,7 +11,6 @@
     <i class="fa-solid fa-bars"></i>
     <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 <body id="proyectos">
     <header class="container">
@@ -122,5 +121,4 @@
     <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541157236816" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script></body>
 </html>

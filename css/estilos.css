@@ -3,6 +3,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 p{
     color: #6a6a6a;
     font-size: 16px;
@@ -18,16 +28,6 @@ h3{
     font-size: 14px; 
     color:#282828;
     font-weight: 300;
-}
-#contacto{
-    background-image: url(../images/fondo-contacto.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-#Proyectos{
-    background-image: url(../images/fondo-proyectos.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 .proyecto {
     background-color: white;

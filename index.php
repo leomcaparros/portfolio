@@ -62,5 +62,5 @@
     <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541157236816" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script></body>
+   </body>
 </html>
