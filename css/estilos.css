@@ -3,13 +3,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-#contacto{
-    background-color: transparent;
+#contacto {
     background-image: url(../images/fondo-contacto.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#Proyectos{
+#proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-repeat: no-repeat;
     background-size: 100%;
