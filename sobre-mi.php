@@ -11,7 +11,6 @@
     <i class="fa-solid fa-bars"></i>
     <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 <body id="Sobre mi">
     <header class="container">
