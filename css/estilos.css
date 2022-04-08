@@ -3,17 +3,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-#contacto {
+#contacto, #inicio {
     background-image: url('../images/fondo-contacto.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#proyectos {
-    background-image: url('../images/fondo-proyectos.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-#Sobre-mi {
+#proyectos, #sobre-mi {
     background-image: url('../images/fondo-proyectos.png');
     background-repeat: no-repeat;
     background-size: 100%;

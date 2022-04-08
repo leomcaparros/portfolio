@@ -12,7 +12,7 @@
     <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="Sobre-mi">
+<body id="sobre-mi">
     <header class="container">
         <nav class="navbar navbar-expand-md  mb-4">
             <div class="container-fluid">
