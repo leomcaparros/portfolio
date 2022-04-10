@@ -13,6 +13,21 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#inicio .div-cohete{
+    height: 410px;
+}#inicio .cohete{
+    height: 400px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+#inicio .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
 p{
     color: #6a6a6a;
     font-size: 16px;
@@ -64,7 +79,7 @@ background-color: #E20000;
     color: white;
     background-color: #370a6d;
 }
-.link-rojo a{
+.link-rojo a {
    color: #E20000;
    text-decoration: none;
 }
@@ -96,6 +111,58 @@ nav .active{
     color: white;
     background-color: #370a6d;
 }
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#experiencia h2, #experiencia h4 {
+   color: #370A6D;
+}
+#experiencia h2, #formacion h2 {
+    font-weight: 400;
+    font-size: 24px
+}
+#formacion h2, #formacion h4{
+    color: #E20000;
+}
+#experiencia h3, #formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+#experiencia h4, #formacion h4{
+    font-size: 17px;
+    
+}
+#experiencia h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
 footer, footer a{
     color: white;
     font-weight: 100;
@@ -115,6 +182,33 @@ footer .fa-linkedin-in{
     padding: 8px 0 0 0;
     border-radius: 80px;
     margin: 0 8px;
+}
+#proyectos img {
+    height: 210px;
+}
+#proyectos .card p{
+    height: 90px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#proyectos footer .fa-github, #sobre-mi .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+#proyectos footer .fa-linkedin-in, #sobre-mi .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+}
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+    color: #E20000;
+}
+#pasatiempos {
+    background-color: #E20000;
 }
 .whatsapp{
     background-color:#370a6d;
@@ -137,9 +231,18 @@ footer .fa-linkedin-in{
     color: white;
 }
 @media (max-width: 750px){
-    #contacto{
+    #contacto, #inicio{
         background-image: url('../images/fondo-proyectos.png');
         background-repeat: no-repeat;
         background-size: 100%;
     }
-}
+    #inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+#contacto {
+    background-image: url(../images/fondo-proyectos.png);
+    }
+footer a{
+color: #E20000;
+    }

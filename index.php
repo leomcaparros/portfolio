@@ -36,13 +36,31 @@
                         </li>
                     </ul>
                     <div class="d-flex">
-                        <a class="btn btn-rojo"><i class="fa-solid fa-file-arrow-down"></i> Descargar mi CV</a>
+                        <a class="btn btn-rojo" href="Cv Profesional Leo Caparros.pdf"><i class="fa-solid fa-file-arrow-down"></i> Descargar mi CV</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    
+    <main class="container">
+        <div class="row">
+            <div class="col-12 mt-4 text-center div-cohete">
+                <a href="proyectos.php"><img src="images/cohete.svg" class="cohete"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
+                <div class="input-home">
+                    <p class="p-1">Bienvenido a mi sitio web</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="sobre-mi.php" class="btn shadow">Conoce más sobre mi</a>
+            </div>
+        </div>
+    </main>
 </body>
 <footer class="container">
         <div class="row mt-5 pb-3">
