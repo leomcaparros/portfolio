@@ -117,7 +117,7 @@ $pg = "sobre-mi"; ?>
                     <div class="col-sm-2 col-6 text-center">
                         <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                             <h3>Lemon Cash</h3>
-                            <img class="img-fluid d-block mx-auto" width="110"
+                            <img class="img-fluid d-block mx-auto" width="60"
                             src="images/lemon-cash.jpg" class="img-fluid baw" title="Lemon Cash">
                         </div>
                     </div>
